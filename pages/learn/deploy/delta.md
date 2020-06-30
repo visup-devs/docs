@@ -20,7 +20,7 @@ We believe the binary delta strategy to be the best update alternative, for that
 
 ## Enabling/Disabling delta updates
 
-__Note__: As a result of the deltas by default strategy devices running {{ $names.os.lower }} >= 2.47.1 or [ESR](esr) versions >= 2020.04 will **ignore** the application-wide `RESIN_SUPERVISOR_DELTA` variable. To disable deltas for these devices you need to override `RESIN_SUPERVISOR_DELTA` for each specific device.
+__Note__: As a result of the deltas by default strategy, devices running {{ $names.os.lower }} >= 2.47.1 or [ESR](esr) versions >= 2020.04 will **ignore** the application-wide `RESIN_SUPERVISOR_DELTA` variable. To disable deltas for these devices you need to override `RESIN_SUPERVISOR_DELTA` for each specific device.
 
 The delta update behavior may be enabled or disabled application-wide or per-device with the `RESIN_SUPERVISOR_DELTA` configuration variable.
 
