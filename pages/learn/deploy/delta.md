@@ -16,7 +16,7 @@ These binary deltas save on the amount of data needed to be downloaded, reduce t
 
 ## Deltas by default
 
-We believe the binary delta strategy to be the best update alternative, for that reason devices running {{ $names.os.lower }} >= 2.47.1 or [ESR](esr) versions >= 2020.04 will have delta update behavior enabled by default. For devices running {{ $names.os.lower }} < 2.47.1, updating to >= 2.47.1 via a [self-service update][self-service-update] will enable delta updates for the device. 
+Devices running {{ $names.os.lower }} >= 2.47.1 or [ESR](esr) versions >= 2020.04 will have delta update behavior enabled by default. For devices running {{ $names.os.lower }} < 2.47.1, updating to >= 2.47.1 via a [self-service update][self-service-update] will automatically enable delta updates for the device.
 
 ## Enabling/Disabling delta updates
 
